@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asparagus.Api", "Asparagus.Api\Asparagus.Api.csproj", "{46D5CDD2-19B2-485E-9AAF-0E11A72C1F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asparagus.Models", "Asparagus.Models\Asparagus.Models.csproj", "{9B86BA01-0FC4-4967-9AB6-EF7D62A6359A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asparagus.Contracts", "Asparagus.Contracts\Asparagus.Contracts.csproj", "{2A55C05D-AAC9-4170-8911-063CAD674B55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46D5CDD2-19B2-485E-9AAF-0E11A72C1F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D5CDD2-19B2-485E-9AAF-0E11A72C1F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D5CDD2-19B2-485E-9AAF-0E11A72C1F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D5CDD2-19B2-485E-9AAF-0E11A72C1F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B86BA01-0FC4-4967-9AB6-EF7D62A6359A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B86BA01-0FC4-4967-9AB6-EF7D62A6359A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B86BA01-0FC4-4967-9AB6-EF7D62A6359A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B86BA01-0FC4-4967-9AB6-EF7D62A6359A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A55C05D-AAC9-4170-8911-063CAD674B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A55C05D-AAC9-4170-8911-063CAD674B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A55C05D-AAC9-4170-8911-063CAD674B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A55C05D-AAC9-4170-8911-063CAD674B55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
