@@ -1,0 +1,18 @@
+<div class="container mt-5">
+  <form id="contact" (ngSubmit)="onSubmit()" class="needs-validation" novalidate>
+    <h3>Кто-то любит спаржу?</h3>
+    <h4>Оставь свои контакты</h4>
+    <fieldset class="mb-3">
+      <input placeholder="Ваше имя" type="text" class="form-control" id="name" [(ngModel)]="name" name="name" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset class="mb-3">
+      <input placeholder="Ваш электронный адрес" type="email" class="form-control" id="email" [(ngModel)]="email" name="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" class="btn btn-primary" data-submit="...Отправка">Я ему спаржу!</button>
+    </fieldset>
+  </form>
+  <fieldset>
+    <button (click)="navigateToFeed()" class="contact-submit">Перейти к ленте</button>
+  </fieldset>
+</div>

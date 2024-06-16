@@ -1,0 +1,23 @@
+    
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+.contact-submit {
+	width: 100%;
+	border: none;
+	padding: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	background-color: #0CF; /* Цвет фона кнопки */
+	color: #FFF;
+  }
+  
+  .contact-submit:hover {
+	background-color: #09C; /* Темнее при наведении */
+  }

@@ -1,0 +1,11 @@
+<div class="container mt-5">
+  <fieldset>
+    <button (click)="navigateToForm()" class="contact-submit">Перейти к форме</button>
+  </fieldset>
+    <div class="list-group">
+      <div *ngFor="let entry of entries" class="list-group-item">
+        <p class="mb-1">Date: {{entry.lastSubmission | date: 'dd.MM.yyyy HH:mm'}} | {{entry.name}} ел спаржу уже {{entry.submissionCount}} раз</p>
+      </div>
+    </div>
+  </div>
+  

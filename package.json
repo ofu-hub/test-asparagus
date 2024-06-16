@@ -1,13 +1,18 @@
 {
   "name": "asparagus-app",
   "version": "0.0.0",
+  "main": "main.js",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:asparagus-app": "node dist/asparagus-app/server/server.mjs"
+    "serve:ssr:asparagus-app": "node dist/asparagus-app/server/server.mjs",
+    "e2e": "ng e2e",
+    "electron": "electron .",
+    "electron-build": "ng build && electron ."
   },
   "private": true,
   "dependencies": {
@@ -24,6 +29,7 @@
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "ws": "^8.17.0",
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
@@ -39,6 +45,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.4.2"
+    "typescript": "~5.4.2",
+    "wait-on": "^7.2.0"
   }
 }
